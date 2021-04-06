@@ -76,14 +76,14 @@ def get_loaders(dataset, label_class, batch_size):
             ds = torchvision.datasets.CIFAR10
             transform = transform_color
             coarse = {}
-            trainset = ds(root='.data', train=True, download=True, transform=transform, **coarse)
-            testset = ds(root='.data', train=False, download=True, transform=transform, **coarse)
+            trainset = ds(root='data', train=True, download=True, transform=transform, **coarse)
+            testset = ds(root='data', train=False, download=True, transform=transform, **coarse)
         elif dataset == "fashion":
             ds = torchvision.datasets.FashionMNIST
             transform = transform_gray
             coarse = {}
-            trainset = ds(root='../dn2_lab/data', train=True, download=True, transform=transform, **coarse)
-            testset = ds(root='../dn2_lab/data', train=False, download=True, transform=transform, **coarse)
+            trainset = ds(root='data', train=True, download=True, transform=transform, **coarse)
+            testset = ds(root='data', train=False, download=True, transform=transform, **coarse)
 
         idx = np.array(trainset.targets) == label_class
         testset.targets = [int(t != label_class) for t in testset.targets]
