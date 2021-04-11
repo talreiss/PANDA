@@ -1,5 +1,5 @@
 # PANDA
-Official PyTorch implementation of the paper: [**“PANDA: Adapting Pretrained Features for Anomaly Detection and Segmentation”**](https://arxiv.org/pdf/2010.05903.pdf) (CVPR 2021).
+Official PyTorch implementation of [**“PANDA: Adapting Pretrained Features for Anomaly Detection and Segmentation”**](https://arxiv.org/pdf/2010.05903.pdf) (CVPR 2021).
 
 ## Virtual Environment
 Use the following commands:
