@@ -22,5 +22,7 @@ class EWCLoss(nn.Module):
     def forward(self, cur_model):
         loss_reg = 0
         for (name, param), (_, param_old) in zip(cur_model.named_parameters(), self.frozen_model.named_parameters()):
+            if 'fc' in name:
+                continue
             loss_reg += torch.sum(self.fisher[name]*(param_old-param).pow(2))/2
         return self.lambda_ewc * loss_reg
