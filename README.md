@@ -11,11 +11,17 @@ pip install -r requirements.txt --find-links https://download.pytorch.org/whl/to
 ```
 
 ## Data Preparation
+Use the following commands:
+```
+cd path-to-PANDA-directory
+mkdir data
+```
+
 Download:
 * [80M Tiny Images - OE](https://drive.google.com/file/d/16c8-ofOnN5l7hmWp--WBCx3LIKXwHHuf/view?usp=sharing)
 * [Fisher Information Matrix Diagonal](https://drive.google.com/file/d/12PTw4yNqp6bgCHj94vcowwb37m81rvpY/view?usp=sharing)
 
-Extract these files in `data` folder.
+Extract these files into `path-to-PANDA-directory/data` and unzip tiny.zip
 
 ## Experiments
 To replicate the results on CIFAR10, FMNIST for a specific normal class with EWC:
