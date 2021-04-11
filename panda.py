@@ -98,7 +98,6 @@ if __name__ == "__main__":
     parser.add_argument('--dataset', default='cifar10')
     parser.add_argument('--diag_path', default='./data/fisher_diagonal.pth', help='fim diagonal path')
     parser.add_argument('--ewc', action='store_true', help='Train with EWC')
-    parser.add_argument('--all', action='store_true', help='Get full experiment results. ONLY FOR CIFAR10/FMNIST')
     parser.add_argument('--epochs', default=15, type=int, metavar='epochs', help='number of epochs')
     parser.add_argument('--label', default=0, type=int, help='The normal class')
     parser.add_argument('--lr', type=float, default=1e-2, help='The initial learning rate.')
