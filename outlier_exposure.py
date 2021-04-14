@@ -92,9 +92,9 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='')
     parser.add_argument('--dataset', default='cifar10')
-    parser.add_argument('--epochs', default=75, type=int, metavar='epochs', help='number of epochs')
+    parser.add_argument('--epochs', default=50, type=int, metavar='epochs', help='number of epochs')
     parser.add_argument('--label', default=0, type=int, help='The normal class')
-    parser.add_argument('--lr', type=float, default=1e-2, help='The initial learning rate.')
+    parser.add_argument('--lr', type=float, default=1e-1, help='The initial learning rate.')
     parser.add_argument('--resnet_type', default=152, type=int, help='which resnet to use')
     parser.add_argument('--latent_dim_size', default=2048, type=int)
     parser.add_argument('--batch_size', default=32, type=int)
