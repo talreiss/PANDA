@@ -45,6 +45,10 @@ python outlier_exposure.py --dataset=cifar10 --label=n
 ```
 Where n indicates the id of the normal class.
 
+## Further work
+See our new paper [**“Mean-Shifted Contrastive Loss for Anomaly Detection”**](https://arxiv.org/pdf/2106.03844.pdf) which achieves state-of-the-art anomaly detection performance on multiple benchmarks including 97.5% ROC-AUC on the CIFAR-10 dataset.
+
+[**GitHub Repository**](https://github.com/talreiss/Mean-Shifted-Anomaly-Detection)
 
 ## Citation
 If you find this useful, please cite our paper:
