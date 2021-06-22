@@ -53,10 +53,11 @@ See our new paper [**“Mean-Shifted Contrastive Loss for Anomaly Detection”**
 ## Citation
 If you find this useful, please cite our paper:
 ```
-@article{reiss2020panda,
-  title={PANDA--Adapting Pretrained Features for Anomaly Detection},
+@inproceedings{reiss2021panda,
+  title={PANDA: Adapting Pretrained Features for Anomaly Detection and Segmentation},
   author={Reiss, Tal and Cohen, Niv and Bergman, Liron and Hoshen, Yedid},
-  journal={arXiv preprint arXiv:2010.05903},
-  year={2020}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={2806--2814},
+  year={2021}
 }
 ```
