@@ -50,6 +50,11 @@ See our new paper [**“Mean-Shifted Contrastive Loss for Anomaly Detection”**
 
 [**GitHub Repository**](https://github.com/talreiss/Mean-Shifted-Anomaly-Detection)
 
+## Video Anomaly Detection
+See our new paper [**“Attribute-based Representations for Accurate and Interpretable Video Anomaly Detection”**](https://arxiv.org/pdf/2212.00789.pdf) which achieves state-of-the-art video anomaly detection performance on multiple benchmarks including 85.9% ROC-AUC on the ShanghaiTech dataset.
+
+[**GitHub Repository**](https://github.com/talreiss/Accurate-Interpretable-VAD)
+
 ## Citation
 If you find this useful, please cite our paper:
 ```
