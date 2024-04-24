@@ -4,7 +4,7 @@ matplotlib==3.2.1
 numba==0.49.1
 numpy>=1.22
 Pillow>=9.0.1
-scikit-learn==0.23.0
+scikit-learn==1.4.2
 scipy>=1.10.00
 torch==1.5.1+cu101
 torchvision==0.6.1+cu101
